@@ -1,0 +1,294 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-transform: capitalize;
+}
+
+#section-01 .container {
+  background-image: url("./image/hero-01.jpg"), -webkit-gradient(linear, left top, left bottom, from(#014beb), to(#d13531));
+  background-image: url("./image/hero-01.jpg"), linear-gradient(#014beb, #d13531);
+  -webkit-filter: blur(0.1px);
+          filter: blur(0.1px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+#section-01 .container .navbar {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-01 .container .navbar .logo {
+  width: 40%;
+}
+
+#section-01 .container .navbar .logo img {
+  width: 50%;
+  height: 40%;
+  cursor: pointer;
+  margin: 10px 0px 0px 100px;
+}
+
+#section-01 .container .navbar .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+}
+
+#section-01 .container .navbar .menu div {
+  margin: 15px 20px 0px 50px;
+}
+
+#section-01 .container .navbar .menu .button button {
+  padding: 2px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid #146101;
+  background: transparent;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+  cursor: pointer;
+  background-color: rgba(26, 194, 104, 0.034);
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#section-01 .container .navbar .menu .button button:hover {
+  border: 1px solid green;
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+}
+
+#section-01 .container .navbar .menu .link {
+  margin-top: 30px;
+}
+
+#section-01 .container .navbar .menu .link a {
+  text-decoration: none;
+  color: black;
+  font-size: 17;
+  font-weight: bold;
+}
+
+#section-01 .container .navbar .menu .link a:hover {
+  background-color: #0400ff;
+  color: white;
+  padding: 3px 15px;
+  font-size: 18px;
+}
+
+#section-01 .container .color .heropart .hero {
+  margin: 150px 0px 0px 200px;
+}
+
+#section-01 .container .color .heropart .hero h3 {
+  font-size: 20px;
+  color: orangered;
+  margin-bottom: 35px;
+}
+
+#section-01 .container .color .heropart .hero h1 {
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+#section-01 .container .color .heropart .hero p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+#section-01 .container .color .heropart .hero button {
+  font-size: 16px;
+  padding: 3px 10px;
+  width: 180px;
+  height: 40px;
+  background-color: #00ffdd;
+  color: #ffffff;
+  border: 1px solid green;
+}
+
+#section-01 .container .color .heropart .hero button a {
+  text-decoration: none;
+  color: black;
+}
+
+#section-01 .container .color .heropart .hero button a:hover {
+  color: white;
+}
+
+#section-01 .container .color .heropart .hero button:hover {
+  background-color: green;
+  color: white;
+  padding: 3px 15px;
+  font-size: 18px;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#section-02 {
+  width: 100%;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+#section-02 .mesh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-02 .mesh .content .hero {
+  margin: 80px 0px 0px 200px;
+  width: 50%;
+}
+
+#section-02 .mesh .content .hero h3 {
+  font-size: 20px;
+  color: orangered;
+  margin-bottom: 35px;
+}
+
+#section-02 .mesh .content .hero h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+#section-02 .mesh .content .hero p {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+#section-02 .mesh .content .hero button {
+  font-size: 16px;
+  padding: 3px 10px;
+  width: 180px;
+  height: 40px;
+  background-color: orangered;
+  color: #ffffff;
+  border: 1px solid green;
+}
+
+#section-02 .mesh .content .hero button a {
+  text-decoration: none;
+  color: black;
+}
+
+#section-02 .mesh .content .hero button a:hover {
+  color: white;
+}
+
+#section-02 .mesh .content .hero button:hover {
+  background-color: green;
+  color: white;
+  padding: 3px 15px;
+  font-size: 18px;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+#section-02 .img {
+  width: 50%;
+  margin-right: 250px;
+}
+
+#section-02 .img img {
+  width: 100%;
+  height: 100%;
+}
+
+#section-03 {
+  margin-bottom: 50px;
+}
+
+#section-03 .details {
+  margin: 4% 10%;
+}
+
+#section-03 .details .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-03 .details .item .foods {
+  margin-right: 20px;
+}
+
+#section-03 .details .item .foods details {
+  width: 80%;
+  margin: 5px;
+  background-color: rgba(0, 255, 255, 0.781);
+  padding: 5px;
+  text-align: justify;
+}
+
+#section-03 .details .item .foods details {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: .5em .5em 0;
+}
+
+#section-03 .details .item .foods summary {
+  font-weight: bold;
+  margin: -.5em -.5em 0;
+  padding: .5em;
+}
+
+#section-03 .details .item .foods details[open] {
+  padding: .5em;
+}
+
+#section-03 .details .item .foods details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+#section-03 .details .item .foods img {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 98%;
+}
+
+#section-04 {
+  background-color: #39a58a;
+}
+
+#section-04 footer {
+  margin-top: 50px;
+  color: white;
+  padding: 100px 10px 100px 10px;
+  margin: 50px 100px;
+}
+
+#section-04 footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section-04 footer .footer .footer-links {
+  width: 22%;
+}
+
+#section-04 footer .footer .footer-links img {
+  width: 80%;
+}
+
+#section-04 footer .footer .footer-links .logo {
+  width: 40%;
+}
+
+#section-04 footer .footer .footer-links .logo img {
+  width: 50%;
+  height: 40%;
+  cursor: pointer;
+  margin: 10px 0px 0px 100px;
+}
+/*# sourceMappingURL=style.css.map */
